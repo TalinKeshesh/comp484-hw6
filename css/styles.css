@@ -17,7 +17,7 @@ body {
     color: #1a1a1a;
 }
 
-/* Give each main block a “card” look */
+/* Gives a card look */
 header,
 main section,
 footer {
@@ -50,6 +50,14 @@ h3 {
     font-weight: 600;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 12px auto;
+    display: inline-block;
+    text-align: center;
 }
 
 /* Header & Footer
