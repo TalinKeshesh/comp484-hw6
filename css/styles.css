@@ -71,8 +71,8 @@ footer {
 }
 
 header img {
-    width: 400px;          /* adjust size
-    height: 180px;         /* makes it a rectangle */
+    width: 400px;          /* adjust size */
+    /* height: 180px;          makes it a rectangle and crops. I commented this out as I prefer the greater height */
     border-radius: 10px;   /* set to 0px sharp corners */
     object-fit: cover;
     display: block;
